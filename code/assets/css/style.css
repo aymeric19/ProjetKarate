@@ -1,0 +1,97 @@
+body
+{
+    font-family: Nunito, sans-serif;
+}
+h2
+{
+    font-family: edo;
+    text-align: center;
+}
+h3
+{
+    font-family: edo, sans-serif;
+    font-size: 1.3em;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover
+{
+color: #D7B98A;
+text-decoration: none;
+}
+
+/* FOOTER */
+
+footer
+{
+    margin: 0;
+    font-size: 1.5em;
+    
+}
+
+/* PARTENAIRES */
+.footer2 
+{
+    background-color: #262523;
+    margin: 0;
+}
+.footer1
+{
+    background-color: rgba(33, 33, 33, 0.53);
+    width: 100%;
+    
+}
+.mairie
+{
+    width: 3em;
+}
+
+/* CARD */
+.sectionfooter
+{
+    background: none;
+    margin-top:10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+	border:none;
+}
+.logofooter
+{
+    width: 15vw;
+    height: auto;
+    align-self: center;
+}
+.logofooter2
+{
+    width: 10vw;
+    height: auto;
+    align-self: center;
+}
+/* NAVIGATION FOOTER */
+.nav_footer
+{
+    color: white;
+    background: none;
+    margin-top:10%;
+	margin-bottom: 10%;
+    border:none;
+    text-align: center;
+    
+    
+}
+.nav_footer > a{
+    color: white;
+}
+.nav_footer > ul{
+    list-style-type: none;
+    
+    
+}
+
+/* MENTIONS */
+.mention{
+    padding-bottom: 10px;
+    font-size: 0.8em;
+}
