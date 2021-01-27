@@ -25,7 +25,77 @@ color: #D7B98A;
 text-decoration: none;
 }
 
+/* NOS COURS */
+hr{
+    border-color:#262523;
+    width: 75%;
+}
+/*KARATE*/
+.karate_cours{
+	margin-top:5%;
+	margin-left:15%;
+	margin-right:15%;
+    background-color: transparent;
+    font-size: 1.2em;
+	
+}
+.paragraphe_cours
+{
+    text-align: center;
+}
+/*KRAVMAGA*/
+.kravmaga_cours{
+	
+	margin-left:15%;
+	margin-right:15%;
+    background-color: transparent;
+    font-size: 1.2em;
+	
+}
+/*on enlève le bg et la bordure de la carte*/
+.bg-transparent{
+	border:none;
+}
+/*image kravmaga et karaté*/
+.photo_cours{
+	text-align: center;
+	width:100%;
+}
+/* POURQUOI EN FAIRE ? */
+.pkenfaire
+{
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2em;
+}
+.liste_pkenfaire
+{
+    font-style: italic;
+    text-align: center;
+    list-style-type:none;
+    list-style-position: inside;
 
+}
+/* TABLEAU */
+td , th
+{
+    border: 2px solid black;
+    padding-left: 3em;
+    padding-right: 3em;
+    text-align: center;   
+    width: auto;
+}
+
+table{
+    border-radius: 1em;
+    border-collapse: collapse;
+    font-family: Nunito,sans-serif;
+    font-size: 1.5em;
+}
+.table_krav
+{
+    margin: auto;
+}
 /* FOOTER */
 
 footer
