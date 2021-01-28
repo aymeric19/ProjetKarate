@@ -6,4 +6,5 @@ document.querySelectorAll('.table-responsive').forEach(function (table) {
     table.querySelectorAll('td').forEach(function (td, i) {
         td.setAttribute('data-label', labels[i % labels.length])
     })
-})
+});
+

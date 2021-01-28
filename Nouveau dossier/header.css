@@ -1,26 +1,5 @@
 
-<<<<<<< Updated upstream
-head{
-	background-color: #d7b98a;
-}
-=======
->>>>>>> Stashed changes
-
-body{
-	font-family: Ubuntu, sans-serif;
-	background-color: #fcffe1;
-}
-
-hr{
-	border: 2px solid white;
-	width: 200px
-}
-
-
 /*BARRE DE NAVIGATION*/
-.bg-white{
-	background-color:#d7b98a;
-}
 .nav{
 	box-shadow: 0 0 2px 2px ;
 	background: #d7b98a;
@@ -28,241 +7,56 @@ hr{
 
 .nav ul{
 	text-transform: uppercase;
-	font-weight: bold;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	font-size: 3em;
+	
 }
-
 .nav li{
 	margin-left: 20px;
 	margin-right: 20px;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
-span.normal{
-	font-weight: normal;
-}
-
-.nav a{
+.nav-link{
 	color: black !important;
 }
 
 .nav a:hover{
-	color: #0077be !important;
-}
-
-.nav .allo a{ /*section appel*/
-	text-align: center;
-	background-color: #339966;
-	color: white !important;
-}
-
-.nav .allo a:hover{
-	text-decoration: underline !important;
+	text-decoration: underline #339966;
 }
 
 button.navbar-toggler{
 	margin: 10px;
 }
 
-.brand{ /*logo affiché pour le tel*/
-	display: none;
-}
-
 .logo{ /*logo à afficher pour large screens*/
-	margin-left: 15px;
-	margin-right: 15px;
+	margin-left: 3em;
+	margin-right: 3em;
 	width: auto;
 	height:6em;
-}
-
-/*MAIN*/
-/*au coeur des possibles*/
-/*section carousel*/
-.contact
-{
-
 }
 
 .carousel{
 	margin-bottom: 10px;
 }
-.zonetextcarousel{
-	margin-bottom: 12%;
-	letter-spacing: 0.2em;
-	word-spacing: 0.1em;
-}
-
-
-/*alerte info*/
-.alerte{ /*toute la row*/
-margin-top: -10px;
-	letter-spacing: 1px;
-	word-spacing: 3px;
-	width: 100%;
-	height: 100%;
-}
-
-.alertesquare{ /*section gauche*/
-	background-color: #ee2e24;
-	text-align: center;
-}
-
-.paracovid{ /*paragraphe alerte covid*/
-	padding: 30px;
-	font-size: 1.4em;
-}
-
-.bold{ /*mots importants*/
-	font-weight: bold;
-}
-
-/*catégories principales de la page*/
-.container{
-	margin-top: 50px;
-}
-
-.card{
-	align-items: center;
-	border: none;
-}
-
-a{
-	color: black !important;
-}
-
-a:hover{
-	color: #333337 !important;
-}
-
-h1{ /*titre des catégories*/
-	text-transform: uppercase;
-	text-align: center;
-	font-weight: bold;
-	margin-top: 10px;
-	margin-bottom: 30px;
-	font-size: 3em;
-	letter-spacing: 3px;
-	word-spacing: 5px;
-}
-
-h2{
-	font-size: 1.5em;
-	font-weight: bold;
-	text-transform: uppercase;
-	text-align: center;
-}
-
-/*en un clic*/
-
-.imageicone{
-	height: 200px;
-	width: 200px;
-	text-align: center;
-}
-
-/* METEO */
-.box-container
-{
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.box
-{
-  width:auto;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  font-size: 1.5rem;
-  color: white;
-}
-
-.box2{
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	font-size: 1.3em;
-	font-weight: bold;
-	text-transform: capitalize;
-	color: #f7f7f7;
-	text-align: center;
-	margin-bottom: 20px;
-}
-.but{
-	padding-bottom: 15px;
-}
-
-.gris{
-	background-color: #262523;
-	padding-bottom: 15px;
-	padding-top: 10px;
-	color: white;
-}
-
 
 /*responsive*/
-@media (max-width: 1600px){
-	.imageicone{
-		height: 150px;
-		width: 150px;
-	}
-}
 
 @media (max-width: 1450px){
 	.nav ul{
 		font-size: 1em;
 	}
-
-	.logo{
-		width: 200px;
-	}
-
-	.paracovid{ /*paragraphe alerte covid*/
-	font-size: 1em;
-	}
-
-	h1{
-		font-size: 2em;
-	}
-
-	h2{
-		font-size: 0.8em;
-	}
-	footer{
-		font-size: 1em;
-	}
-
 }
 
 @media (max-width: 1240px){
 	.nav ul{
 		font-size: 0.8em;
 	}
-
-	.pp{
-	height: 170px;
-	width: 170px;
-	}
 }
 
 @media (max-width: 1055px){
 	.nav ul{
 		font-size: 0.7em;
-	}
-
-	.box{
-		width: 50%;
-		height: 200px;
 	}
 }
 
@@ -271,45 +65,10 @@ h2{
 		text-align: center;
 		padding: 0 !important;
 	}
-
 	.nav ul{
 		background-color: #f7f7f7;
 	}
-
-	.brand{
-		display: inline-block;
-	}
-
-	.logo2{
+	.logo{
 		display: none;
-	}
-}
-
-@media (max-width: 450px){
-	.box{
-		width: 100%;
-		height: 100px;
-	}
-}
-
-@media (max-width: 420px){
-	.card-img-top{
-	height: 120px;
-	width: 120px;
-	}
-}
-
-@media (max-width: 400px){
-	.brand{
-		width: 140px;
-		height: auto;
-		margin-top: 10px;
-	}
-}
-
-@media (max-width: 300px){
-	.card-img-top{
-	height: 100px;
-	width: 100px;
 	}
 }
