@@ -15,15 +15,6 @@ h4
     font-family: edo, sans-serif;
     font-size: 1.3em;
 }
-a{
-    text-decoration: none;
-    color: white;
-}
-a:hover
-{
-color: #D7B98A;
-text-decoration: none;
-}
 
 /* HEADER */
 
@@ -158,9 +149,23 @@ thead tr
     padding-left: 10px;
     padding-right: 10px;
 }
-
+.table_karate 
+{
+    margin-top:50px;
+}
 /* FOOTER */
 
+.li_footer > a 
+{
+    text-decoration: none;
+    color: white;
+}
+
+.li_footer > a:hover
+{
+    color: #D7B98A;
+    text-decoration: none;
+}
 footer
 {
     margin: 0;
@@ -174,6 +179,10 @@ footer
     background-color: #262523;
     margin: 0;
     width: 100%;
+}
+.partenaire_title
+{
+	text-align: center;
 }
 .footer1
 {
@@ -227,6 +236,7 @@ margin-left: 1em;
 }
 .nav_footer > a{
     color: white;
+    text-decoration: none;
 }
 .nav_footer > ul{
     list-style-type: none;
@@ -239,6 +249,11 @@ margin-left: 1em;
     padding-bottom: 10px;
     font-size: 1em;
 }
+.mentions > a 
+{ 
+    color: white;
+}
+
 
 /* RESPONSIVE */
 

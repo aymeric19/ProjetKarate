@@ -1,57 +1,63 @@
-
 body
 {
     font-family: Nunito, sans-serif;
     background-color: #fcffe1;
 
 }
-/*boutton cours*/
-button
+h4
 {
-	color: white;
-	background-color: #28632c;
-	border: solid black 1.5px;
-  margin-top:-100px;
+    font-family: edo, sans-serif;
+    font-size: 1.3em;
 }
-/*section contact*/
-.new
-{
 
-	color:white;
-	 background-color: #28632c;
-	border: solid black 1.5px;
-	border-radius: 30px 0px 0px 0px;
-	margin-bottom: -12px;
-	border-bottom: 0;
-	box-shadow: 10px 5px 5px #E1E3Ca
-}
-.textfooter
+a :hover
 {
-	color:black;
-	border: solid black 1.5px ;
-	background-color: #E1E3Ca;
-	border-radius: 0px 0px 30px 0px;
-	border-top: 0;
-	margin-bottom: 5px;
-	box-shadow: 10px 5px 5px #E1E3Ca;
+	cursor: pointer;
+	text-decoration: none;
+}
+/* HEADER */
+
+/*BARRE DE NAVIGATION*/
+.nav{
+	box-shadow: 0 0 2px 2px ;
+	background-color: rgba(215,185,138,0.8);
+}
+
+.nav ul{
+	text-transform: uppercase;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
+}
+.nav li{
+	margin-left: 20px;
+	margin-right: 20px;
+    font-size: 1.3em;
+    font-family: Nunito sans-serif;
+}
+
+.nav-link{
+	color: black !important;
+}
+
+.nav a:hover{
+	text-decoration: underline #339966;
+}
+
+button.navbar-toggler{
+	margin: 10px;
+}
+
+.logo{ /*logo à afficher pour large screens*/
+	margin-left: 4em;
+	margin-right: 4em;
 	width: auto;
-	font-family:Nunito;
+	height:4.8em;
 }
-.card1
-{
-	margin-top: 20px;
-	box-shadow: 10px 5px 5px #E1E3Ca ;
-}
-.card2
-{
-	box-shadow: 10px 5px 5px #E1E3Ca ;
 
-}
-.sous-menu
-{
-		font-size: 1.5em;
-    font-family: edo;
-    text-align: center;
+/* CAROUSEL FIXE */
+.carousel{
+	margin-bottom: 10px;
 }
 
 /*catégories principales de l'accueil*/
@@ -105,7 +111,218 @@ button
 	padding-top: 10px;
 	color: white;
 }
+
+/*boutton cours*/
+button
+{
+	color: white;
+	background-color: #28632c;
+	border: solid black 1.5px;
+  margin-top:-100px;
+}
+/*section contact*/
+.new
+{
+	font-size: 1.5em;
+	font-family: edo,sans-serif;
+	color:white;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.a_tel
+{
+	color: black;
+	text-decoration: none;
+}
+.a_tel :hover
+{
+	color: #28632c;
+	text-decoration: none;
+}
+.card_contact
+{
+	background-color: #28632c;
+	border: solid black 1.5px;
+	border-radius: 30px 0px 0px 0px;
+	margin-bottom: -12px;
+	border-bottom: 0;
+	box-shadow: 10px 5px 5px #E1E3Ca
+}
+.textfooter
+{
+	color:black;
+	border: solid black 1.5px ;
+	background-color: #E1E3Ca;
+	border-radius: 0px 0px 30px 0px;
+	border-top: 0;
+	margin-bottom: 5px;
+	box-shadow: 10px 5px 5px #E1E3Ca;
+	width: auto;
+	font-family:Nunito;
+}
+.card1
+{
+	margin-top: 20px;
+	box-shadow: 10px 5px 5px #E1E3Ca ;
+}
+.card2
+{
+	box-shadow: 10px 5px 5px #E1E3Ca ;
+
+}
+.big_title
+{
+	font-family: edo,sans-serif;
+	text-align: center;
+}
+.sous-menu
+{
+	font-size: 1.6em;
+    font-family: Nunito,sans-serif;
+    text-align: center;
+}
+.m-5
+{
+	display: flex;
+	justify-content: center;
+}
+/* FOOTER */
+
+.li_footer > a 
+{
+    text-decoration: none;
+    color: white;
+}
+
+.li_footer > a:hover
+{
+    color: #D7B98A;
+    text-decoration: none;
+}
+footer
+{
+    margin: 0;
+    font-size: 1.5em;
+    
+}
+
+/* PARTENAIRES */
+.footer2 
+{
+    background-color: #262523;
+    margin: 0;
+    width: 100%;
+}
+.partenaire_title
+{
+	text-align: center;
+	font-family: edo,sans-serif;
+}
+.footer1
+{
+    margin-top: 3em;
+    background-color: rgba(33, 33, 33, 0.53);
+    width: 100%;
+    
+}
+.mairie
+{
+    width: 3em;
+}
+
+/* CARD */
+.sectionfooter
+{
+    background: none;
+    margin-top:10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+	border:none;
+}
+.logofooter
+{
+    max-width: 15vw;
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+.logofooter2
+{
+    width: 100%;
+    max-width: 10vw;
+    height: auto;
+    align-self: center;
+}
+/* NAVIGATION FOOTER */
+.nav_footer
+{
+    color: white;
+    background: none;
+    margin-top:10%;
+	margin-bottom: 10%;
+    border:none;
+    text-align: center;
+    padding-right: 1em;   
+}
+.nav_footer > h4
+{
+margin-left: 1em;
+}
+.nav_footer > a{
+    color: white;
+}
+.nav_footer > ul{
+    list-style-type: none;
+    
+}
+
+/* MENTIONS */
+.mention{
+    padding-bottom: 10px;
+    font-size: 1em;
+}
+.mentions > a 
+{ 
+    color: white;
+}
+
 /*responsive*/
+
+/* RESPONSIVE HEADER */
+
+/*responsive*/
+
+@media (max-width: 1450px){
+	.nav ul{
+		font-size: 1em;
+	}
+}
+
+@media (max-width: 1240px){
+	.nav ul{
+		font-size: 0.8em;
+	}
+}
+
+@media (max-width: 1055px){
+	.nav ul{
+		font-size: 0.7em;
+	}
+}
+
+@media (max-width: 991px){
+	.nav{
+		text-align: center;
+		padding: 0 !important;
+	}
+	.nav ul{
+		background-color: #f7f7f7;
+	}
+	.logo{
+		display: none;
+	}
+}
+
 
 @media (max-width: 1450px){
 	/* Responsive h1 page d'accueil */
@@ -141,75 +358,4 @@ button
 	height: 100px;
 	width: 100px;
 	}
-}
-
-/* FOOTER */
-
-footer
-{
-    margin: 0;
-    font-size: 1.5em;
-
-}
-/* PARTENAIRES */
-.footer2
-{
-    background-color: #262523;
-    margin: 0;
-    width: 100%;
-}
-.footer1
-{
-    background-color: rgba(33, 33, 33, 0.53);
-    width: 100%;
-
-}
-.mairie
-{
-    width: 3em;
-}
-/* CARD */
-.sectionfooter
-{
-    background: none;
-    margin-top:10%;
-    margin-bottom: 10%;
-    margin-left: 5%;
-	border:none;
-}
-.logofooter
-{
-    width: 15vw;
-    height: auto;
-    align-self: center;
-}
-.logofooter2
-{
-    width: 10vw;
-    height: auto;
-    align-self: center;
-}
-/* NAVIGATION FOOTER */
-.nav_footer
-{
-    color: white;
-    background: none;
-    margin-top:10%;
-	margin-bottom: 10%;
-    border:none;
-    text-align: center;
-
-
-}
-.nav_footer > a{
-    color: white;
-}
-.nav_footer > ul{
-    list-style-type: none;
-}
-
-/* MENTIONS */
-.mention{
-    padding-bottom: 10px;
-    font-size: 0.8em;
 }
