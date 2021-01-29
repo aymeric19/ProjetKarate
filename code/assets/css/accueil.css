@@ -1,0 +1,215 @@
+
+body
+{
+    font-family: Nunito, sans-serif;
+    background-color: #fcffe1;
+
+}
+/*boutton cours*/
+button
+{
+	color: white;
+	background-color: #28632c;
+	border: solid black 1.5px;
+  margin-top:-100px;
+}
+/*section contact*/
+.new
+{
+
+	color:white;
+	 background-color: #28632c;
+	border: solid black 1.5px;
+	border-radius: 30px 0px 0px 0px;
+	margin-bottom: -12px;
+	border-bottom: 0;
+	box-shadow: 10px 5px 5px #E1E3Ca
+}
+.textfooter
+{
+	color:black;
+	border: solid black 1.5px ;
+	background-color: #E1E3Ca;
+	border-radius: 0px 0px 30px 0px;
+	border-top: 0;
+	margin-bottom: 5px;
+	box-shadow: 10px 5px 5px #E1E3Ca;
+	width: auto;
+	font-family:Nunito;
+}
+.card1
+{
+	margin-top: 20px;
+	box-shadow: 10px 5px 5px #E1E3Ca ;
+}
+.card2
+{
+	box-shadow: 10px 5px 5px #E1E3Ca ;
+
+}
+.sous-menu
+{
+		font-size: 1.5em;
+    font-family: edo;
+    text-align: center;
+}
+
+/*catégories principales de l'accueil*/
+.container{
+	margin-top: 50px;
+}
+.card{
+	align-items: center;
+	border: none;
+}
+
+.box-container
+{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box
+{
+  width:auto;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.box2{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #f7f7f7;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.gris{
+	background-color: #262523;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	color: white;
+}
+/*responsive*/
+
+@media (max-width: 1450px){
+	/* Responsive h1 page d'accueil */
+	.big_title{
+		font-size: 2em;
+		text-align: center;
+	}
+}
+/* Responsive box page accueil */
+@media (max-width: 1055px){
+	.box{
+		width: 50%;
+		height: 200px;
+	}
+}
+
+@media (max-width: 450px){
+	.box{
+		width: 100%;
+		height: 100px;
+	}
+}
+
+@media (max-width: 420px){
+	.card-img-top{
+	height: 120px;
+	width: 120px;
+	}
+}
+
+@media (max-width: 300px){
+	.card-img-top{
+	height: 100px;
+	width: 100px;
+	}
+}
+
+/* FOOTER */
+
+footer
+{
+    margin: 0;
+    font-size: 1.5em;
+
+}
+/* PARTENAIRES */
+.footer2
+{
+    background-color: #262523;
+    margin: 0;
+    width: 100%;
+}
+.footer1
+{
+    background-color: rgba(33, 33, 33, 0.53);
+    width: 100%;
+
+}
+.mairie
+{
+    width: 3em;
+}
+/* CARD */
+.sectionfooter
+{
+    background: none;
+    margin-top:10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+	border:none;
+}
+.logofooter
+{
+    width: 15vw;
+    height: auto;
+    align-self: center;
+}
+.logofooter2
+{
+    width: 10vw;
+    height: auto;
+    align-self: center;
+}
+/* NAVIGATION FOOTER */
+.nav_footer
+{
+    color: white;
+    background: none;
+    margin-top:10%;
+	margin-bottom: 10%;
+    border:none;
+    text-align: center;
+
+
+}
+.nav_footer > a{
+    color: white;
+}
+.nav_footer > ul{
+    list-style-type: none;
+}
+
+/* MENTIONS */
+.mention{
+    padding-bottom: 10px;
+    font-size: 0.8em;
+}
