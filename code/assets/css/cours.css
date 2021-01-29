@@ -30,7 +30,7 @@ text-decoration: none;
 /*BARRE DE NAVIGATION*/
 .nav{
 	box-shadow: 0 0 2px 2px ;
-	background: #d7b98a;
+	background-color: rgba(215,185,138,0.8);
 }
 
 .nav ul{
@@ -42,7 +42,8 @@ text-decoration: none;
 .nav li{
 	margin-left: 20px;
 	margin-right: 20px;
-	font-size: 1.5em;
+    font-size: 1.3em;
+    font-family: Nunito sans-serif;
 }
 
 .nav-link{
@@ -138,6 +139,10 @@ button.navbar-toggler{
     box-shadow:  0 5px 50px rgba(0, 0, 0, 0.15);
     font-family: Nunito,sans-serif;
     font-size: 1.5em;
+}
+.table_krav
+{
+    margin-bottom: 50px;
 }
 thead tr
 {
