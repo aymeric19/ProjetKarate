@@ -7,6 +7,10 @@
     font-family: "Nunito";
     src: url("../font/Nunito.ttf");
    }
+   html
+   {
+    scroll-behavior: smooth;
+   }
 body
 {
     font-family: Nunito, sans-serif;
@@ -124,7 +128,7 @@ button.navbar-toggler{
 }
 
 /*boutton cours*/
-button
+.button_cours
 {
 	box-shadow: 8px 5px 5px black;
 	background-color: #28632c;
@@ -136,7 +140,7 @@ button
     text-decoration: none;
     color: white;
 }
-button :hover
+.button_cours :hover
 {
     text-decoration: none;
     color: rgb(215,185,138);
