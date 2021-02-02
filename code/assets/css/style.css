@@ -47,12 +47,13 @@ a :hover
 .nav li{
 	margin-left: 20px;
 	margin-right: 20px;
-    font-size: 1.3em;
-    font-family: "Nunito",sans-serif;
+    font-size: 1.5em;
+    font-family: "edo",sans-serif;
+    
 }
 
 .nav-link{
-	color: black !important;
+	color:black !important;
 }
 
 .nav a:hover{
@@ -122,20 +123,43 @@ button.navbar-toggler{
 
 .gris{
 	background-color: #262523;
-	padding-bottom: 15px;
+	padding-bottom: 25px;
 	padding-top: 10px;
 	color: white;
 }
 
 /*boutton cours*/
-.button_cours
-{
-	box-shadow: 8px 5px 5px black;
-	background-color: #28632c;
-	border: solid 1px;
-   
+.button_cours {
+    font-family: 'Nunito', sans-serif;
+    padding: 2px 15px;
+    cursor: pointer;
+    border-radius: .4rem;
+    border: .3rem solid #28632c;
+    background:  #28632c;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: -60px;
+    box-shadow: 0 3px 0 #215224;
+  }
+  
+    .button_cours:active {
+      margin-top: -26px;
+      box-shadow: none;
+    }
+  
+    .a_button{
+      color: #fcffe1;
+      text-shadow: 0px 2px 0px #0e2410;
+    }
+  
+    .a_button:hover{
+      text-decoration: none;
+      color: #fcffe1;
+    }
+  
+  button:focus {outline:0;}
 
-}
 .a_button {
     text-decoration: none;
     color: white;
@@ -335,10 +359,11 @@ footer
     text-align: center;
     color: black;
     font-family: edo,sans-serif;
+    padding-top: 5px;
 }
-.mairie
+.logo_ancv
 {
-    width: 3em;
+    padding-top: 12px;
 }
 
 /* CARD */
@@ -368,7 +393,8 @@ footer
     color: white;
     background: none;
     margin-top:10%;
-	margin-bottom: 10%;
+    margin-bottom: 10%;
+    margin-top: 0;
     border:none;
     text-align: center;
     padding-right: 1em;  
@@ -389,6 +415,7 @@ margin-left: 1em;
     list-style-type: none;
     
 }
+
 
 /* MENTIONS */
 .mention{
@@ -635,6 +662,13 @@ STAFF
 	}
 }
 
+@media (max-width: 502px){
+    .tigre2
+    {
+        display: none;
+    }
+}
+
 /* TABLEAU RESPONSIVE (page 2) */
 @media screen and (max-width: 780px)
 {
@@ -690,10 +724,15 @@ STAFF
 
 }
 
-@media screen and (max-width: 576px)
-{ 
-    .logofooter
+ 
+@media screen and (max-width: 320px)
+{
+    .plugin_fb
     {
-        width: 50%;
+        display: none;
+    }
+    .card1 
+    {
+        display: none;
     }
 }
