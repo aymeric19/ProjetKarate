@@ -68,7 +68,16 @@ button.navbar-toggler{
 	margin-left: 4em;
 	margin-right: 4em;
 	width: auto;
-	height:4.3em;
+    height:4.3em;
+	-webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+}
+.logo:hover
+{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 /* CAROUSEL FIXE */
@@ -242,6 +251,10 @@ button.navbar-toggler{
     border-color:#262523;
     width: 75%;
 }
+.titre_cours2
+{
+    font-family: "edo",sans-serif;
+}
 
 /*KARATE*/
 .karate_cours{
@@ -282,11 +295,11 @@ button.navbar-toggler{
     font-style: italic;
     font-size: 1.2em;
 }
-.liste_pkenfaire
+.p_cours
 {
     font-style: italic;
+    line-height: 1em;
     text-align: center;
-    list-style-type:none;
 
 }
 /* TABLEAU */
@@ -416,6 +429,18 @@ margin-left: 1em;
     
 }
 
+.img_footer_zoom
+{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.img_footer_zoom:hover
+{
+    -webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
 
 /* MENTIONS */
 .mention{
@@ -506,6 +531,8 @@ STAFF
 
 .team-boxed .people {
   padding:50px 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .team-boxed .item {
